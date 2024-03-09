@@ -46,8 +46,8 @@ var
   minValue, maxValue, count: Integer;
 
 begin
-  minValue := 0;
-  maxValue := 1000;
+  minValue := 100;
+  maxValue := 500;
   count := 99;
 
   if count > MAX_NUMBERS then
