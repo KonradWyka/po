@@ -14,7 +14,7 @@
 Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_1)
 
 
-**Zadanie 1** PHP Symfony
+**Zadanie 2** PHP Symfony
 
 
 :white_check_mark: 3.0 wymaganie 1 [Link do commita2 ](https://github.com/KonradWyka/po/commit/c2a89a21378886566717988f9819d04fb02873a1)
@@ -28,3 +28,18 @@ Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_1)
 :x: 5.0 wymaganie 5
 
 Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie2)
+
+**Zadanie 2** PHP Symfony
+
+
+:white_check_mark: 3.0 wymaganie 1 
+
+:white_check_mark: 3.5 wymaganie 2 
+
+:white_check_mark: 4.0 wymaganie 3 
+
+:white_check_mark: 4.5 wymaganie 4 [Link do commita ](https://github.com/KonradWyka/po/commit/cebf6c18f992a18a3b490da336f6938dddaee5aa)
+
+:x: 5.0 wymaganie 5
+
+Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_3)
