@@ -29,7 +29,7 @@ Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_1)
 
 Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie2)
 
-**Zadanie 2** PHP Symfony
+**Zadanie 3** Spring Boot (Kotlin)
 
 
 :white_check_mark: 3.0 wymaganie 1 
@@ -43,3 +43,19 @@ Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie2)
 :x: 5.0 wymaganie 5
 
 Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_3)
+
+
+**Zadanie 4** Go
+
+
+:white_check_mark: 3.0 wymaganie 1 
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita ](https://github.com/KonradWyka/po/commit/84f17ae0f93344178dacfa4cb9e881faa5e1b11d)
+
+:x: 4.0 wymaganie 3 
+
+:x: 4.5 wymaganie 4 
+
+:x: 5.0 wymaganie 5
+
+Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_4)
