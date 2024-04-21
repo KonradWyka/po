@@ -59,3 +59,18 @@ Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_3)
 :x: 5.0 wymaganie 5
 
 Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_4)
+
+**Zadanie 5** React
+
+
+:white_check_mark: 3.0 wymaganie 1 
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita ](https://github.com/KonradWyka/po/commit/2911feb9924bf9808148ca08735fcc2cc8b778ee)
+
+:x: 4.0 wymaganie 3 
+
+:x: 4.5 wymaganie 4 
+
+:x: 5.0 wymaganie 5
+
+Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_5)
