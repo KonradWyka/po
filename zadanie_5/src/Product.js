@@ -17,7 +17,6 @@ const Produkty = () => {
         console.error(error);
       }
     };
-
     fetchData();
   }, []);
 
