@@ -4,7 +4,6 @@ import './Product.css';
 const Produkty = () => {
   const [produkty, setProdukty] = useState([]);
 
-
   useEffect(() => {
     const fetchData = async () => {
       try {
