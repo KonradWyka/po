@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Platnosci.css'
 
 const Platnosci = () => {
+  let x = 5;
   const [formData, setFormData] = useState({
     imie: '',
     nazwisko: '',
