@@ -74,3 +74,19 @@ Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_4)
 :x: 5.0 wymaganie 5
 
 Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_5)
+
+**Zadanie 6** Sonar (JS)
+
+
+:white_check_mark: 3.0 wymaganie 1 
+
+:white_check_mark: 3.5 wymaganie 2 
+
+:white_check_mark: 4.0 wymaganie 3 
+
+:white_check_mark: 4.5 wymaganie 4 
+
+:white_check_mark: 5.0 wymaganie 5 [Link do commita ](https://github.com/KonradWyka/po/commit/6cdb58fd2a6cbce29b0c7d517171cec58668728e)
+
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=KonradWyka_po&metric=alert_status)](https://sonarcloud.io/dashboard?id=KonradWyka_po)
