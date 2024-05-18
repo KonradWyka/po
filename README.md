@@ -74,3 +74,5 @@ Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_4)
 :x: 5.0 wymaganie 5
 
 Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_5)
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=KonradWyka_po&metric=alert_status)](https://sonarcloud.io/dashboard?id=KonradWyka_po)
