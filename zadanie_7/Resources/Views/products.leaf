@@ -1,0 +1,55 @@
+# products.leaf
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+</head>
+<body>
+    <h1>Products</h1>
+
+    <!-- Form for creating a new product -->
+    <form action="/products" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="description">Description:</label><br>
+        <input type="text" id="description" name="description"><br>
+        
+        <label for="price">Price:</label><br>
+        <input type="text" id="price" name="price"><br>
+        
+        <button type="submit">Create Product</button>
+    </form>
+
+    <!-- List all products -->
+    #for(product in products) :
+        <div>
+            <h2>#(product.name)</h2>
+            <p>Description: #(product.description)</p>
+            <p>Price: #(product.price)</p>
+
+            <!-- Form for updating a product -->
+            <form action="/products/#(product.id)" method="post">
+                <input type="hidden" name="_method" value="PUT">
+                <label for="updateName">New Name:</label><br>
+                <input type="text" id="updateName" name="name" placeholder="New Name"><br>
+                
+                <label for="updateDescription">New Description:</label><br>
+                <input type="text" id="updateDescription" name="description" placeholder="New Description"><br>
+                
+                <label for="updatePrice">New Price:</label><br>
+                <input type="text" id="updatePrice" name="price" placeholder="New Price"><br>
+                
+                <button type="submit">Update</button>
+            </form>
+
+            <!-- Delete button -->
+            <form action="/products/#(product.id)" method="post">
+                <input type="hidden" name="_method" value="DELETE">
+                <button type="submit">Delete</button>
+            </form>
+        </div>
+    #endfor
+</body>
+</html>
