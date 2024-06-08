@@ -90,3 +90,19 @@ Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_5)
 
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=KonradWyka_po&metric=alert_status)](https://sonarcloud.io/dashboard?id=KonradWyka_po)
+
+
+**Zadanie 7** Vapor (Swift)
+
+
+:white_check_mark: 3.0 wymaganie 1 
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita ](https://github.com/KonradWyka/po/commit/73a7ba911197fb21ceb95bedd33f724de410ac73)
+
+:x: 4.0 wymaganie 3 
+
+:x: 4.5 wymaganie 4 
+
+:x: 5.0 wymaganie 5
+
+Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_7)
