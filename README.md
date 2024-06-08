@@ -108,6 +108,22 @@ Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_5)
 Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_7)
 
 
+**Zadanie 8** Android
+
+
+:white_check_mark: 3.0 wymaganie 1 [Link do commita ](https://github.com/KonradWyka/po/commit/34d581c2877899e74df3d68f2404e8f8d55567cd)
+
+:x: 3.5 wymaganie 2 
+
+:x: 4.0 wymaganie 3 
+
+:x: 4.5 wymaganie 4 
+
+:x: 5.0 wymaganie 5
+
+Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_8)
+
+
 **Zadanie 9** Testy
 
 
