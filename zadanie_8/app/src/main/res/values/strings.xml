@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Zadanie8</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="categories_array">
+        <item>Kategoria 1</item>
+        <item>Kategoria 2</item>
+        <item>Kategoria 3</item>
+    </string-array>
+
+    <string-array name="products_array">
+        <item>Produkt 1</item>
+        <item>Produkt 2</item>
+        <item>Produkt 3</item>
+    </string-array>
+</resources>
