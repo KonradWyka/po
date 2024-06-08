@@ -106,3 +106,19 @@ Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_5)
 :x: 5.0 wymaganie 5
 
 Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_7)
+
+
+**Zadanie 9** Testy
+
+
+:white_check_mark: 3.0 wymaganie 1 
+
+:white_check_mark: 3.5 wymaganie 2 [Link do commita ](https://github.com/KonradWyka/po/commit/c6614aceba1a198a29498b69581fe2b1757abc87)
+
+:x: 4.0 wymaganie 3 
+
+:x: 4.5 wymaganie 4 
+
+:x: 5.0 wymaganie 5
+
+Kod: [Folder](https://github.com/KonradWyka/po/tree/main/zadanie_9)
