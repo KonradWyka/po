@@ -1,0 +1,66 @@
+# Docker Compose file for Vapor
+#
+# Install Docker on your system to run and test
+# your Vapor app in a production-like environment.
+#
+# Note: This file is intended for testing and does not
+# implement best practices for a production deployment.
+#
+# Learn more: https://docs.docker.com/compose/reference/
+#
+#   Build images: docker-compose build
+#      Start app: docker-compose up app
+#       Stop all: docker-compose down
+#
+version: '3.7'
+
+x-shared_environment: &shared_environment
+  LOG_LEVEL: ${LOG_LEVEL:-debug}
+  DATABASE_URL: /app/db.sqlite
+
+services:
+  app:
+    image: zadanie_7:latest
+    build:
+      context: .
+    environment:
+      <<: *shared_environment
+    ports:
+      - '8080:8080'
+    volumes:
+      - sqlite-db:/app/db.sqlite
+    command: ["serve", "--env", "production", "--hostname", "0.0.0.0", "--port", "8080"]
+  migrate:
+    image: zadanie_7:latest
+    build:
+      context: .
+    environment:
+      <<: *shared_environment
+    volumes:
+      - sqlite-db:/app/db.sqlite
+    command: ["migrate", "--yes"]
+    deploy:
+      replicas: 0
+  revert:
+    image: zadanie_7:latest
+    build:
+      context: .
+    environment:
+      <<: *shared_environment
+    volumes:
+      - sqlite-db:/app/db.sqlite
+    command: ["migrate", "--revert", "--yes"]
+    deploy:
+      replicas: 0
+  debug:
+    image: zadanie_7:latest
+    build:
+      context: .
+    environment:
+      <<: *shared_environment
+    volumes:
+      - sqlite-db:/app/db.sqlite
+    entrypoint: ["/bin/sh"]
+
+volumes:
+  sqlite-db:
